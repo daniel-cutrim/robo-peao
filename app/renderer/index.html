@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:">
+<title>Robô Peão</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg id="rb-defs" width="0" height="0" style="position: absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="rb-chrome" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F7F9FB"/><stop offset="0.4" stop-color="#B7BEC6"/><stop offset="0.5" stop-color="#6A727C"/><stop offset="0.62" stop-color="#A4ACB5"/><stop offset="1" stop-color="#E2E6EA"/></linearGradient>
+    <radialGradient id="rb-chromeR" cx="0.38" cy="0.3" r="0.75"><stop offset="0" stop-color="#FFFFFF"/><stop offset="0.25" stop-color="#DDE2E7"/><stop offset="0.6" stop-color="#8E96A0"/><stop offset="1" stop-color="#3E444C"/></radialGradient>
+    <radialGradient id="rb-cer" cx="0.38" cy="0.3" r="0.8"><stop offset="0" stop-color="#FFFFFF"/><stop offset="0.5" stop-color="#E7EAEF"/><stop offset="1" stop-color="#9EA6B2"/></radialGradient>
+    <linearGradient id="rb-cerL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#B9C0CA"/></linearGradient>
+    <radialGradient id="rb-gold" cx="0.38" cy="0.3" r="0.8"><stop offset="0" stop-color="#FFF4C4"/><stop offset="0.3" stop-color="#F0C25A"/><stop offset="0.7" stop-color="#A8701C"/><stop offset="1" stop-color="#5A3808"/></radialGradient>
+    <linearGradient id="rb-goldL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FBE08A"/><stop offset="0.45" stop-color="#C98E2A"/><stop offset="0.55" stop-color="#7E5214"/><stop offset="1" stop-color="#E8B85A"/></linearGradient>
+    <radialGradient id="rb-gun" cx="0.38" cy="0.3" r="0.8"><stop offset="0" stop-color="#A8B0BA"/><stop offset="0.35" stop-color="#5E666F"/><stop offset="1" stop-color="#1C2026"/></radialGradient>
+    <linearGradient id="rb-gunL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8C949E"/><stop offset="0.5" stop-color="#3A4048"/><stop offset="1" stop-color="#6E767F"/></linearGradient>
+    <radialGradient id="rb-cop" cx="0.38" cy="0.3" r="0.8"><stop offset="0" stop-color="#FFD9BC"/><stop offset="0.3" stop-color="#E08A52"/><stop offset="0.75" stop-color="#8A3E16"/><stop offset="1" stop-color="#3E1806"/></radialGradient>
+    <linearGradient id="rb-vis" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1E3A5C"/><stop offset="1" stop-color="#070C16"/></linearGradient>
+    <filter id="rb-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+</svg>
+<div id="root"></div>
+<script src="robots.js"></script>
+<script src="falas.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

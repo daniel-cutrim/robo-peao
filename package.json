@@ -1,0 +1,20 @@
+{
+  "name": "robo-peao",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Widget flutuante com robôs que mostram os agentes do Claude Code rodando.",
+  "author": "Daniel Cutrim (https://www.linkedin.com/in/daniel-cutrim)",
+  "license": "MIT",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test app/state.test.js",
+    "hooks:preview": "node scripts/install-hooks.mjs",
+    "hooks:install": "node scripts/install-hooks.mjs --apply",
+    "hooks:remove": "node scripts/install-hooks.mjs --remove",
+    "screenshots": "electron scripts/screenshots/main.js"
+  },
+  "devDependencies": {
+    "electron": "^44.7.0"
+  }
+}
